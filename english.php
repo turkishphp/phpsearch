@@ -17,13 +17,7 @@ $lang['web'] = 'Web';
 $lang['images'] = 'Images';
 $lang['videos'] = 'Videos';
 
-// Footer
-$lang['contact'] = 'Contact';
-$lang['developers'] = 'Developers';
-$lang['settings'] = 'Settings';
-$lang['about'] = 'About';
 $lang['info'] = 'Info';
-
 $lang['themes'] = 'Themes';
 $lang['language'] = 'Language';
 $lang['languages'] = 'Languages';
@@ -91,8 +85,8 @@ $lang['search_api_key'] = 'Search API Key';
 $lang['default_region'] = 'Default Region';
 $lang['web_per_page'] = 'Web results / page';
 $lang['images_per_page'] = 'Images results / page';
-$lang['videos_per_page'] = 'Videos results /page';
-$lang['search_specific_sites'] = 'Search only specific sites';
+$lang['videos_per_page'] = 'Videos results / page';
+$lang['search_specific_sites'] = 'Search only in specific sites';
 $lang['one_domain_line'] = 'One domain per line';
 
 $lang['ads'] = 'Ads';
@@ -164,7 +158,6 @@ $lang['suggestion_2'] = 'Try different keywords.';
 $lang['suggestion_3'] = 'Try fewer keywords.';
 
 $lang['x_results'] = '%s results';
-$lang['x_views'] = '%s views';
 
 $lang['date_format'] = '%2$s %3$s, %1$s';
 
