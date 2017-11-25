@@ -206,6 +206,15 @@ $lang['ia_map'] = 'hartă';
 $lang['ia_qr_code'] = 'cod qr';
 $lang['ia_qr'] = 'qr';
 
+$lang['ia_sort'] = 'sortează';
+$lang['ia_sort_1'] = 'sortează crescător';
+$lang['ia_sort_2'] = 'sortează descrescător';
+
+$lang['ia_reverse_text'] = 'inversează textul';
+
+$lang['ia_base64_encode'] = 'codifică base64';
+$lang['ia_base64_decode'] = 'decodifică base64';
+
 // Cards
 $lang['your_ip_is'] = 'IP-ul tău este';
 $lang['current_time_is'] = 'Ora actuală este';
@@ -220,3 +229,9 @@ $lang['reset'] = 'Resetează';
 $lang['you_have_rolled'] = 'Ai aruncat';
 $lang['directions'] = 'Direcții';
 $lang['qr_code_for'] = 'Cod-ul QR pentru %s';
+$lang['sorted_1'] = 'Sortat în ordine crescătoare';
+$lang['sorted_2'] = 'Sortat în ordine descrescătoare';
+$lang['reversed_text'] = 'Textul inversat este';
+$lang['md5_hash_for'] = 'Hashul MD5 pentru %s';
+$lang['base64_1'] = 'Codificarea în Base64 pentru %s';
+$lang['base64_2'] = 'Decodificarea în Base64 pentru %s';
