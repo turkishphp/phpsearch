@@ -144,7 +144,6 @@ $lang['wide'] = 'Wide';
 $lang['tall'] = 'Tall';
 $lang['size'] = 'Size';
 $lang['small'] = 'Small';
-$lang['medium'] = 'Medium';
 $lang['large'] = 'Large';
 $lang['wallpaper'] = 'Wallpaper';
 $lang['color'] = 'Color';
@@ -207,6 +206,15 @@ $lang['ia_map'] = 'map';
 $lang['ia_qr_code'] = 'qr code';
 $lang['ia_qr'] = 'qr';
 
+$lang['ia_sort'] = 'sort';
+$lang['ia_sort_1'] = 'sort ascending';
+$lang['ia_sort_2'] = 'sort descending';
+
+$lang['ia_reverse_text'] = 'reverse text';
+
+$lang['ia_base64_encode'] = 'base64 encode';
+$lang['ia_base64_decode'] = 'base64 decode';
+
 // Cards
 $lang['your_ip_is'] = 'Your IP is';
 $lang['current_time_is'] = 'Current time is';
@@ -221,3 +229,9 @@ $lang['reset'] = 'Reset';
 $lang['you_have_rolled'] = 'You have rolled';
 $lang['directions'] = 'Directions';
 $lang['qr_code_for'] = 'QR code for %s';
+$lang['sorted_1'] = 'Sorted in ascending order';
+$lang['sorted_2'] = 'Sorted in descending order';
+$lang['reversed_text'] = 'Reversed text is';
+$lang['md5_hash_for'] = 'MD5 hash for %s';
+$lang['base64_1'] = 'Base64 encoding for %s';
+$lang['base64_2'] = 'Base64 decoding for %s';
