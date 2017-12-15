@@ -17,7 +17,6 @@ $lang['web'] = 'Web';
 $lang['images'] = 'Images';
 $lang['videos'] = 'Videos';
 
-$lang['info'] = 'Info';
 $lang['themes'] = 'Themes';
 $lang['language'] = 'Language';
 $lang['languages'] = 'Languages';
@@ -81,7 +80,7 @@ $lang['useful_links'] = 'Useful Links';
 $lang['get_more_themes'] = 'Get more themes';
 $lang['get_more_languages'] = 'Get more languages';
 
-$lang['search_api_key'] = 'Search API Key';
+$lang['search_api_key'] = 'API Key';
 $lang['default_region'] = 'Default Region';
 $lang['web_per_page'] = 'Web results / page';
 $lang['images_per_page'] = 'Images results / page';
@@ -93,7 +92,7 @@ $lang['ads'] = 'Ads';
 $lang['ads_1'] = 'Home page';
 $lang['ads_2'] = 'Search page (Top)';
 $lang['ads_3'] = 'Search page (Bottom)';
-$lang['ad_unit_code'] = 'Ad unite code';
+$lang['ad_unit_code'] = 'Ad unit code';
 
 // Home
 $lang['preferences'] = 'Preferences';

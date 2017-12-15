@@ -17,7 +17,6 @@ $lang['web'] = 'Web';
 $lang['images'] = 'Imagini';
 $lang['videos'] = 'Videoclipuri';
 
-$lang['info'] = 'Info';
 $lang['themes'] = 'Teme';
 $lang['language'] = 'Limbă';
 $lang['languages'] = 'Limbi';
@@ -81,7 +80,7 @@ $lang['useful_links'] = 'Linkuri folositoare';
 $lang['get_more_themes'] = 'Obține mai multe Teme';
 $lang['get_more_languages'] = 'Obține mai multe Limbi';
 
-$lang['search_api_key'] = 'API Key Căutare';
+$lang['search_api_key'] = 'Cheia API';
 $lang['default_region'] = 'Regiune prestabilită';
 $lang['web_per_page'] = 'Rezultate Web / pagină';
 $lang['images_per_page'] = 'Rezultate Imagini / pagină';
