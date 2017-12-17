@@ -17,6 +17,7 @@ $lang['web'] = 'Web';
 $lang['images'] = 'Imagini';
 $lang['videos'] = 'Videoclipuri';
 
+$lang['info'] = 'Info';
 $lang['themes'] = 'Teme';
 $lang['language'] = 'Limbă';
 $lang['languages'] = 'Limbi';
