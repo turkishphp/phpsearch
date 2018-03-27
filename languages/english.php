@@ -219,6 +219,21 @@ $lang['ia_reverse_text'] = 'reverse text';
 $lang['ia_base64_encode'] = 'base64 encode';
 $lang['ia_base64_decode'] = 'base64 decode';
 
+$lang['ia_lowercase'] = 'lowercase';
+$lang['ia_uppercase'] = 'uppercase';
+
+$lang['ia_leap_year'] = 'leap year';
+
+$lang['ia_screen_resolution'] = 'screen resolution';
+
+$lang['ia_pi'] = 'pi';
+
+$lang['ia_morse_code'] = 'morse code';
+
+$lang['ia_unix_time'] = 'unix time';
+
+$lang['ia_lorem_ipsum'] = 'lorem ipsum';
+
 // Cards
 $lang['your_ip_is'] = 'Your IP is';
 $lang['current_time_is'] = 'Current time is';
@@ -239,3 +254,14 @@ $lang['reversed_text'] = 'Reversed text is';
 $lang['md5_hash_for'] = 'MD5 hash for %s';
 $lang['base64_1'] = 'Base64 encoding for %s';
 $lang['base64_2'] = 'Base64 decoding for %s';
+$lang['case_1'] = 'Lowercase';
+$lang['case_2'] = 'Uppercase';
+$lang['leap_year_1'] = 'Is a leap year';
+$lang['leap_year_2'] = 'Is not a leap year';
+$lang['your_sr_is'] = 'Your screen resolution is';
+$lang['pi_is'] = 'The Pi value is';
+$lang['morse_code_for'] = 'The morse code for %s';
+$lang['unix_time'] = 'Unix time';
+$lang['unix_time_for'] = 'Date for %s Unix Time';
+$lang['gmt'] = 'GMT';
+$lang['x_lorem_ipsum'] = '%s paragraphs of Lorem Ipsum';

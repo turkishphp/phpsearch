@@ -219,6 +219,19 @@ $lang['ia_reverse_text'] = 'inversează textul';
 $lang['ia_base64_encode'] = 'codifică base64';
 $lang['ia_base64_decode'] = 'decodifică base64';
 
+$lang['ia_lowercase'] = 'litere mici';
+$lang['ia_uppercase'] = 'litere mari';
+
+$lang['ia_leap_year'] = 'an bisect';
+
+$lang['ia_screen_resolution'] = 'rezoluția ecranului';
+
+$lang['ia_pi'] = 'pi';
+
+$lang['ia_morse_code'] = 'cod morse';
+
+$lang['ia_unix_time'] = 'ora unix';
+
 // Cards
 $lang['your_ip_is'] = 'IP-ul tău este';
 $lang['current_time_is'] = 'Ora actuală este';
@@ -239,3 +252,14 @@ $lang['reversed_text'] = 'Textul inversat este';
 $lang['md5_hash_for'] = 'Hashul MD5 pentru %s';
 $lang['base64_1'] = 'Codificarea în Base64 pentru %s';
 $lang['base64_2'] = 'Decodificarea în Base64 pentru %s';
+$lang['case_1'] = 'Litere mici';
+$lang['case_2'] = 'Litere mari';
+$lang['leap_year_1'] = 'Este an bisect';
+$lang['leap_year_2'] = 'Nu este an bisect';
+$lang['your_sr_is'] = 'Rezoluția ecranului tău este';
+$lang['pi_is'] = 'Valoarea lui Pi este';
+$lang['morse_code_for'] = 'Codul morse pentru %s';
+$lang['unix_time'] = 'Ora unix';
+$lang['unix_time_for'] = 'Data pentru Ora Unix %s';
+$lang['gmt'] = 'GMT';
+$lang['x_lorem_ipsum'] = '%s paragrafe de Lorem Ipsum';
