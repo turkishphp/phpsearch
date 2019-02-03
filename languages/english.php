@@ -9,13 +9,14 @@ $author = 'phpSearch';
 $url = 'http://phpsearch.com';
 
 // Language Direction
-$direction = 'ltr';
+$lang['lang_dir'] = 'ltr';
 
 // Menu
 $lang['search'] = 'Search';
 $lang['web'] = 'Web';
 $lang['images'] = 'Images';
 $lang['videos'] = 'Videos';
+$lang['news'] = 'News';
 
 $lang['info'] = 'Info';
 $lang['themes'] = 'Themes';
@@ -25,6 +26,7 @@ $lang['languages'] = 'Languages';
 // Admin Panel
 $lang['admin'] = 'Admin';
 $lang['general'] = 'General';
+$lang['appearance'] = 'Appearance';
 $lang['password'] = 'Password';
 $lang['info_pages'] = 'Info Pages';
 $lang['username'] = 'Username';
@@ -53,7 +55,12 @@ $lang['on'] = 'On';
 $lang['dashboard'] = 'Dashboard';
 $lang['site_title'] = 'Site title';
 $lang['site_tagline'] = 'Tagline';
-$lang['site_logo'] = 'Site logo';
+$lang['logo_small'] = 'Logo small';
+$lang['logo_small_dark'] = 'Logo small (Dark Mode)';
+$lang['logo_large'] = 'Logo large';
+$lang['logo_large_dark'] = 'Logo large (Dark Mode)';
+$lang['favicon'] = 'Favicon';
+$lang['backgrounds'] = 'Backgrounds';
 $lang['timezone'] = 'Timezone';
 $lang['tracking_code'] = 'Tracking code';
 $lang['current_password'] = 'Current password';
@@ -83,11 +90,15 @@ $lang['get_more_themes'] = 'Get more themes';
 $lang['get_more_languages'] = 'Get more languages';
 
 $lang['search_api_key'] = 'API Key';
-$lang['default_region'] = 'Default Region';
 $lang['web_per_page'] = 'Web results / page';
 $lang['images_per_page'] = 'Images results / page';
 $lang['videos_per_page'] = 'Videos results / page';
+$lang['news_per_page'] = 'News results / page';
 $lang['searches_per_ip'] = 'Searches / IP';
+$lang['search_suggestions'] = 'Search Suggestions';
+$lang['search_entities'] = 'Search Entities';
+$lang['search_answers'] = 'Search Answers';
+$lang['suggestions_per_ip'] = 'Suggestions / IP';
 $lang['search_specific_sites'] = 'Search only in specific sites';
 $lang['one_domain_line'] = 'One domain per line';
 
@@ -104,21 +115,22 @@ $lang['preferences'] = 'Preferences';
 // Preferences
 $lang['theme'] = 'Theme';
 $lang['region'] = 'Region';
-$lang['dark_mode'] = 'Enable dark mode';
+$lang['dark_mode'] = 'Dark mode';
+$lang['center_content'] = 'Center Content';
 $lang['site_language'] = 'Site language';
 $lang['new_window'] = 'Open results in new window/tab';
-$lang['default_safe_search'] = 'Default Safe Search restriction';
 $lang['highlight'] = 'Highlight keywords in search results';
 
 // Misc
 $lang['token_mismatch'] = 'Token mismatch';
-$lang['copyright'] = 'Copyright &copy; %s %s.';
-$lang['all_rights_reserved'] = 'All rights reserved.';
-$lang['powered_by'] = 'Powered by %s.';
+$lang['copyright'] = '&copy; %s %s';
+$lang['powered_by'] = 'Powered by %s';
+$lang['not_found'] = 'Not Found';
+$lang['home'] = 'Home';
 
 // Search
+$lang['filters'] = 'Filters';
 $lang['period'] = 'Period';
-$lang['all_time'] = 'All time';
 $lang['past_day'] = 'Past day';
 $lang['past_week'] = 'Past week';
 $lang['past_month'] = 'Past month';
@@ -152,6 +164,18 @@ $lang['wallpaper'] = 'Wallpaper';
 $lang['color'] = 'Color';
 $lang['colored'] = 'Colored';
 $lang['monochrome'] = 'Monochrome';
+$lang['license'] = 'License';
+$lang['share'] = 'Share';
+$lang['share_commercially'] = 'Share Commercially';
+$lang['modify'] = 'Modify';
+$lang['modify_commercially'] = 'Modify Commercially';
+
+$lang['sort_by'] = 'Sort by';
+$lang['relevance'] = 'Relevance';
+$lang['date'] = 'Date';
+
+$lang['source'] = 'Source';
+$lang['image'] = 'Image';
 
 $lang['search_l_e'] = 'You\'ve exceeded the daily search limit, try again tomorrow.';
 $lang['no_results_found'] = 'No results found for %s.';
@@ -160,10 +184,20 @@ $lang['suggestion_1'] = 'Try less specific keywords.';
 $lang['suggestion_2'] = 'Try different keywords.';
 $lang['suggestion_3'] = 'Try fewer keywords.';
 
+$lang['showing_results_for'] = 'Showing results for %s';
+$lang['search_instead_for'] = 'Search instead for %s';
+$lang['related_searches'] = 'Related Searches';
+$lang['more_x'] = 'More %s';
 $lang['x_results'] = '%s results';
+
+$lang['data_from'] = 'Data from:';
+$lang['text_under'] = 'Text under %s';
+$lang['read_more'] = 'Read more';
+$lang['see_results_for'] = 'See results for';
 
 $lang['date_format'] = '%2$s %3$s, %1$s';
 
+$lang['views_x'] = '%s views';
 $lang['views_k'] = 'K';
 $lang['views_m'] = 'M';
 $lang['views_b'] = 'B';
@@ -183,56 +217,43 @@ $lang['month_12'] = 'December';
 
 $lang['decimals_separator'] = ',';
 $lang['thousands_separator'] = '.';
+$lang['ellipsis'] = '...';
 
-// Instant Answers keywords
-$lang['ia_what_is_my_ip'] = 'what is my ip';
-$lang['ia_my_ip'] = 'my ip';
-$lang['ia_ip'] = 'ip';
-
-$lang['ia_current_time'] = 'current time';
-$lang['ia_local_time'] = 'local time';
-$lang['ia_time'] = 'time';
-
-$lang['ia_current_date'] = 'current date';
-$lang['ia_local_date'] = 'local date';
-$lang['ia_date'] = 'date';
-
-$lang['ia_flip_coin'] = 'flip coin';
-$lang['ia_heads_tails'] = 'heads or tails';
-
-$lang['ia_stopwatch'] = 'stopwatch';
-$lang['ia_chronometer'] = 'chronometer';
-
-$lang['ia_roll'] = 'roll';
-
-$lang['ia_map'] = 'map';
-
-$lang['ia_qr_code'] = 'qr code';
-$lang['ia_qr'] = 'qr';
-
-$lang['ia_sort'] = 'sort';
-$lang['ia_sort_1'] = 'sort ascending';
-$lang['ia_sort_2'] = 'sort descending';
-
-$lang['ia_reverse_text'] = 'reverse text';
-
-$lang['ia_base64_encode'] = 'base64 encode';
-$lang['ia_base64_decode'] = 'base64 decode';
-
-$lang['ia_lowercase'] = 'lowercase';
-$lang['ia_uppercase'] = 'uppercase';
-
-$lang['ia_leap_year'] = 'leap year';
-
-$lang['ia_screen_resolution'] = 'screen resolution';
-
-$lang['ia_pi'] = 'pi';
-
-$lang['ia_morse_code'] = 'morse code';
-
-$lang['ia_unix_time'] = 'unix time';
-
-$lang['ia_lorem_ipsum'] = 'lorem ipsum';
+// Instant Answers triggers
+$lang['ia']['ip'][] = 'what is my ip';
+$lang['ia']['ip'][] = 'my ip';
+$lang['ia']['ip'][] = 'ip';
+$lang['ia']['time'][] = 'current time';
+$lang['ia']['time'][] = 'local time';
+$lang['ia']['time'][] = 'time';
+$lang['ia']['date'][] = 'current date';
+$lang['ia']['date'][] = 'local date';
+$lang['ia']['date'][] = 'date';
+$lang['ia']['flip_coin'][] = 'flip coin';
+$lang['ia']['flip_coin'][] = 'heads or tails';
+$lang['ia']['stopwatch'][] = 'stopwatch';
+$lang['ia']['stopwatch'][] = 'chronometer';
+$lang['ia']['roll'][] = 'roll';
+$lang['ia']['map'][] = 'map';
+$lang['ia']['qr_code'][] = 'qr';
+$lang['ia']['qr_code'][] = 'qr code';
+$lang['ia']['sort_asc'][] = 'sort';
+$lang['ia']['sort_asc'][] = 'sort ascending';
+$lang['ia']['sort_desc'][] = 'sort descending';
+$lang['ia']['reverse_text'][] = 'reverse text';
+$lang['ia']['md5'][] = 'md5';
+$lang['ia']['base64_encode'][] = 'base64 encode';
+$lang['ia']['base64_decode'][] = 'base64 decode';
+$lang['ia']['lowercase'][] = 'lowercase';
+$lang['ia']['uppercase'][] = 'uppercase';
+$lang['ia']['leap_year'][] = 'leap year';
+$lang['ia']['screen_resolution'][] = 'screen resolution';
+$lang['ia']['pi'][] = 'pi';
+$lang['ia']['pi'][] = 'π';
+$lang['ia']['morse_code'][] = 'morse code';
+$lang['ia']['unix_time'][] = 'unix time';
+$lang['ia']['lorem_ipsum'][] = 'lorem ipsum';
+$lang['ia']['atbash'][] = 'atbash';
 
 // Cards
 $lang['your_ip_is'] = 'Your IP is';
@@ -265,3 +286,4 @@ $lang['unix_time'] = 'Unix time';
 $lang['unix_time_for'] = 'Date for %s Unix Time';
 $lang['gmt'] = 'GMT';
 $lang['x_lorem_ipsum'] = '%s paragraphs of Lorem Ipsum';
+$lang['atbash_for'] = 'Atbash cipher for %s';

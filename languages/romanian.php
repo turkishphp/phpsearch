@@ -9,13 +9,14 @@ $author = 'phpSearch';
 $url = 'http://phpsearch.com';
 
 // Language Direction
-$direction = 'ltr';
+$lang['lang_dir'] = 'ltr';
 
 // Menu
 $lang['search'] = 'Caută';
 $lang['web'] = 'Web';
 $lang['images'] = 'Imagini';
 $lang['videos'] = 'Videoclipuri';
+$lang['news'] = 'Știri';
 
 $lang['info'] = 'Info';
 $lang['themes'] = 'Teme';
@@ -25,6 +26,7 @@ $lang['languages'] = 'Limbi';
 // Admin Panel
 $lang['admin'] = 'Admin';
 $lang['general'] = 'General';
+$lang['appearance'] = 'Aspect';
 $lang['password'] = 'Parolă';
 $lang['info_pages'] = 'Info Pagini';
 $lang['username'] = 'Utilizator';
@@ -47,13 +49,18 @@ $lang['delete'] = 'Șterge';
 $lang['cancel'] = 'Anulează';
 $lang['yes'] = 'Da';
 $lang['no'] = 'Nu';
-$lang['off'] = 'Off';
-$lang['on'] = 'On';
+$lang['off'] = 'Oprit';
+$lang['on'] = 'Pornit';
 
 $lang['dashboard'] = 'Panou Control';
 $lang['site_title'] = 'Titlu site';
 $lang['site_tagline'] = 'Slogan';
-$lang['site_logo'] = 'Logo site';
+$lang['logo_small'] = 'Logo mic';
+$lang['logo_small_dark'] = 'Logo mic (Mod Întunecat)';
+$lang['logo_large'] = 'Logo mare';
+$lang['logo_large_dark'] = 'Logo mare (Mod Întunecat)';
+$lang['favicon'] = 'Favicon';
+$lang['backgrounds'] = 'Fundaluri';
 $lang['timezone'] = 'Fus orar';
 $lang['tracking_code'] = 'Cod de monitorizare';
 $lang['current_password'] = 'Parolă actuală';
@@ -83,11 +90,15 @@ $lang['get_more_themes'] = 'Obține mai multe Teme';
 $lang['get_more_languages'] = 'Obține mai multe Limbi';
 
 $lang['search_api_key'] = 'Cheia API';
-$lang['default_region'] = 'Regiune prestabilită';
 $lang['web_per_page'] = 'Rezultate Web / pagină';
 $lang['images_per_page'] = 'Rezultate Imagini / pagină';
 $lang['videos_per_page'] = 'Rezultate videoclipuri / pagină';
+$lang['news_per_page'] = 'News știri / page';
 $lang['searches_per_ip'] = 'Căutări / IP';
+$lang['search_suggestions'] = 'Sugestii căutare';
+$lang['search_entities'] = 'Entități căutare';
+$lang['search_answers'] = 'Raspunsuri căutare';
+$lang['suggestions_per_ip'] = 'Sugestii / IP';
 $lang['search_specific_sites'] = 'Caută doar în siteuri specifice';
 $lang['one_domain_line'] = 'Un domeniu pe linie';
 
@@ -104,21 +115,22 @@ $lang['preferences'] = 'Preferințe';
 // Preferences
 $lang['theme'] = 'Temă';
 $lang['region'] = 'Regiune';
-$lang['dark_mode'] = 'Activează modul întunecat';
+$lang['dark_mode'] = 'Mod întunecat';
+$lang['center_content'] = 'Centrează Conținut';
 $lang['site_language'] = 'Limbă site';
 $lang['new_window'] = 'Deschide rezultatele noi în fereastră/tab nou';
-$lang['default_safe_search'] = 'Restricție Safe Search predefinită';
 $lang['highlight'] = 'Evidențiază cuvintele cheie în rezultatele căutărilor';
 
 // Misc
 $lang['token_mismatch'] = 'Token invalid';
-$lang['copyright'] = 'Drepturi de autor &copy; %s %s.';
-$lang['all_rights_reserved'] = 'Toate drepturile de rezervate.';
-$lang['powered_by'] = 'Powered by %s.';
+$lang['copyright'] = '&copy; %s %s';
+$lang['powered_by'] = 'Powered by %s';
+$lang['not_found'] = 'Nu a fost găsită.';
+$lang['home'] = 'Acasă';
 
 // Search
+$lang['filters'] = 'Filtre';
 $lang['period'] = 'Perioadă';
-$lang['all_time'] = 'Tot timpul';
 $lang['past_day'] = 'Ultima zi';
 $lang['past_week'] = 'Ultima săptămână';
 $lang['past_month'] = 'Ultima lună';
@@ -129,7 +141,7 @@ $lang['duration'] = 'Durată';
 $lang['quality'] = 'Calitate';
 $lang['all'] = 'Toate';
 
-$lang['safe_search'] = 'Safe Search';
+$lang['safe_search'] = 'Căutare Sigură';
 $lang['moderate'] = 'Moderat';
 $lang['strict'] = 'Strict';
 $lang['short'] = 'Scurt';
@@ -152,6 +164,18 @@ $lang['wallpaper'] = 'Tapet';
 $lang['color'] = 'Culoare';
 $lang['colored'] = 'Colorat';
 $lang['monochrome'] = 'Monocrom';
+$lang['license'] = 'Licență';
+$lang['share'] = 'Distribuie';
+$lang['share_commercially'] = 'Distribuie Comercial';
+$lang['modify'] = 'Modifică';
+$lang['modify_commercially'] = 'Modifică Comercial';
+
+$lang['sort_by'] = 'Sortează după';
+$lang['relevance'] = 'Relevanță';
+$lang['date'] = 'Dată';
+
+$lang['source'] = 'Sursă';
+$lang['image'] = 'Imagine';
 
 $lang['search_l_e'] = 'Ai depășit limita zilnică de căutări, încearcă din nou mâine.';
 $lang['no_results_found'] = 'Nu au fost găsite rezultate pentru %s.';
@@ -160,10 +184,20 @@ $lang['suggestion_1'] = 'Încearcă mai puține cuvinte cheie specifice.';
 $lang['suggestion_2'] = 'Încearcă cuvinte cheie diferite.';
 $lang['suggestion_3'] = 'Încearcă mai puține cuvinte cheie.';
 
+$lang['showing_results_for'] = 'Afișăm rezultate pentru %s';
+$lang['search_instead_for'] = 'Caută în schimb %s';
+$lang['related_searches'] = 'Căutări asociate';
+$lang['more_x'] = 'Mai multe %s';
 $lang['x_results'] = '%s rezultate';
+
+$lang['data_from'] = 'Informații de la:';
+$lang['text_under'] = 'Text sub %s';
+$lang['read_more'] = 'Citește mai mult';
+$lang['see_results_for'] = 'Vezi rezultate pentru';
 
 $lang['date_format'] = '%3$s %2$s, %1$s';
 
+$lang['views_x'] = '%s vizualizări';
 $lang['views_k'] = 'K';
 $lang['views_m'] = 'M';
 $lang['views_b'] = 'B';
@@ -183,54 +217,43 @@ $lang['month_12'] = 'Decembrie';
 
 $lang['decimals_separator'] = ',';
 $lang['thousands_separator'] = '.';
+$lang['ellipsis'] = '...';
 
-// Instant Answers keywords
-$lang['ia_what_is_my_ip'] = 'care este ip-ul meu';
-$lang['ia_my_ip'] = 'ip-ul meu';
-$lang['ia_ip'] = 'ip';
-
-$lang['ia_current_time'] = 'ora actuală';
-$lang['ia_local_time'] = 'ora locală';
-$lang['ia_time'] = 'ora';
-
-$lang['ia_current_date'] = 'data actuală';
-$lang['ia_local_date'] = 'data locală';
-$lang['ia_date'] = 'data';
-
-$lang['ia_flip_coin'] = 'aruncă moneda';
-$lang['ia_heads_tails'] = 'cap sau pajură';
-
-$lang['ia_stopwatch'] = 'metronom';
-$lang['ia_chronometer'] = 'cronometru';
-
-$lang['ia_roll'] = 'aruncă';
-
-$lang['ia_map'] = 'hartă';
-
-$lang['ia_qr_code'] = 'cod qr';
-$lang['ia_qr'] = 'qr';
-
-$lang['ia_sort'] = 'sortează';
-$lang['ia_sort_1'] = 'sortează crescător';
-$lang['ia_sort_2'] = 'sortează descrescător';
-
-$lang['ia_reverse_text'] = 'inversează textul';
-
-$lang['ia_base64_encode'] = 'codifică base64';
-$lang['ia_base64_decode'] = 'decodifică base64';
-
-$lang['ia_lowercase'] = 'litere mici';
-$lang['ia_uppercase'] = 'litere mari';
-
-$lang['ia_leap_year'] = 'an bisect';
-
-$lang['ia_screen_resolution'] = 'rezoluția ecranului';
-
-$lang['ia_pi'] = 'pi';
-
-$lang['ia_morse_code'] = 'cod morse';
-
-$lang['ia_unix_time'] = 'ora unix';
+// Instant Answers triggers
+$lang['ia']['ip'][] = 'care este ip-ul meu';
+$lang['ia']['ip'][] = 'ip-ul meu';
+$lang['ia']['ip'][] = 'ip';
+$lang['ia']['time'][] = 'ora actuală';
+$lang['ia']['time'][] = 'ora locală';
+$lang['ia']['time'][] = 'ora';
+$lang['ia']['date'][] = 'data actuală';
+$lang['ia']['date'][] = 'data locală';
+$lang['ia']['date'][] = 'data';
+$lang['ia']['flip_coin'][] = 'aruncă moneda';
+$lang['ia']['flip_coin'][] = 'cap sau pajură';
+$lang['ia']['stopwatch'][] = 'metronom';
+$lang['ia']['stopwatch'][] = 'cronometru';
+$lang['ia']['roll'][] = 'aruncă';
+$lang['ia']['map'][] = 'hartă';
+$lang['ia']['qr_code'][] = 'qr';
+$lang['ia']['qr_code'][] = 'cod qr';
+$lang['ia']['sort_asc'][] = 'sortează';
+$lang['ia']['sort_asc'][] = 'sortează crescător';
+$lang['ia']['sort_desc'][] = 'sortează descrescător';
+$lang['ia']['reverse_text'][] = 'inversează textul';
+$lang['ia']['md5'][] = 'md5';
+$lang['ia']['base64_encode'][] = 'codifică base64';
+$lang['ia']['base64_decode'][] = 'decodifică base64';
+$lang['ia']['lowercase'][] = 'litere mici';
+$lang['ia']['uppercase'][] = 'litere mari';
+$lang['ia']['leap_year'][] = 'an bisect';
+$lang['ia']['screen_resolution'][] = 'rezoluția ecranului';
+$lang['ia']['pi'][] = 'pi';
+$lang['ia']['pi'][] = 'π';
+$lang['ia']['morse_code'][] = 'cod morse';
+$lang['ia']['unix_time'][] = 'ora unix';
+$lang['ia']['lorem_ipsum'][] = 'lorem ipsum';
+$lang['ia']['atbash'][] = 'atbash';
 
 // Cards
 $lang['your_ip_is'] = 'IP-ul tău este';
@@ -263,3 +286,4 @@ $lang['unix_time'] = 'Ora unix';
 $lang['unix_time_for'] = 'Data pentru Ora Unix %s';
 $lang['gmt'] = 'GMT';
 $lang['x_lorem_ipsum'] = '%s paragrafe de Lorem Ipsum';
+$lang['atbash_for'] = 'Cifrul atbash pentru %s';
