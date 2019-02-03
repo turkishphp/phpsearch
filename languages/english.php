@@ -123,8 +123,6 @@ $lang['highlight'] = 'Highlight keywords in search results';
 $lang['token_mismatch'] = 'Token mismatch';
 $lang['copyright'] = '&copy; %s %s';
 $lang['powered_by'] = 'Powered by %s';
-$lang['not_found'] = 'Not Found';
-$lang['home'] = 'Home';
 
 // Search
 $lang['filters'] = 'Filters';
@@ -213,8 +211,8 @@ $lang['month_10'] = 'October';
 $lang['month_11'] = 'November';
 $lang['month_12'] = 'December';
 
-$lang['decimals_separator'] = ',';
-$lang['thousands_separator'] = '.';
+$lang['decimals_separator'] = '.';
+$lang['thousands_separator'] = ',';
 $lang['ellipsis'] = '...';
 
 // Instant Answers triggers
@@ -232,7 +230,6 @@ $lang['ia']['flip_coin'][] = 'heads or tails';
 $lang['ia']['stopwatch'][] = 'stopwatch';
 $lang['ia']['stopwatch'][] = 'chronometer';
 $lang['ia']['roll'][] = 'roll';
-$lang['ia']['map'][] = 'map';
 $lang['ia']['qr_code'][] = 'qr';
 $lang['ia']['qr_code'][] = 'qr code';
 $lang['ia']['sort_asc'][] = 'sort';
@@ -265,7 +262,6 @@ $lang['start'] = 'Start';
 $lang['stop'] = 'Stop';
 $lang['reset'] = 'Reset';
 $lang['you_have_rolled'] = 'You have rolled';
-$lang['directions'] = 'Directions';
 $lang['qr_code_for'] = 'QR code for %s';
 $lang['sorted_1'] = 'Sorted in ascending order';
 $lang['sorted_2'] = 'Sorted in descending order';
