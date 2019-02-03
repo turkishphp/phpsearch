@@ -19,7 +19,7 @@ $lang['videos'] = 'Videos';
 $lang['news'] = 'News';
 
 $lang['info'] = 'Info';
-$lang['themes'] = 'Themes';
+$lang['themes'] = 'Thèmes';
 $lang['language'] = 'Langue';
 $lang['languages'] = 'Langues';
 
