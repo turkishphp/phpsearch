@@ -6,7 +6,7 @@ $name = 'English';
 $author = 'phpSearch';
 
 // Language URL
-$url = 'http://phpsearch.com';
+$url = 'https://phpsearch.com';
 
 // Language Direction
 $lang['lang_dir'] = 'ltr';
