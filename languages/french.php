@@ -12,11 +12,11 @@ $url = 'http://phpsearch.com';
 $lang['lang_dir'] = 'ltr';
 
 // Menu
-$lang['search'] = 'Search';
+$lang['search'] = 'Recherche';
 $lang['web'] = 'Web';
 $lang['images'] = 'Images';
-$lang['videos'] = 'Videos';
-$lang['news'] = 'News';
+$lang['videos'] = 'Vidéos';
+$lang['news'] = 'Actualités';
 
 $lang['info'] = 'Info';
 $lang['themes'] = 'Thèmes';
@@ -49,8 +49,8 @@ $lang['delete'] = 'Supprimer';
 $lang['cancel'] = 'Annuler';
 $lang['yes'] = 'Oui';
 $lang['no'] = 'Non';
-$lang['off'] = 'Off';
-$lang['on'] = 'On';
+$lang['off'] = 'Désactivé';
+$lang['on'] = 'Activé';
 
 $lang['dashboard'] = 'Tableau de bord';
 $lang['site_title'] = 'Titre du site';
@@ -87,7 +87,7 @@ $lang['useful_links'] = 'Liens pratiques';
 $lang['get_more_themes'] = 'Plus de thèmes';
 $lang['get_more_languages'] = 'Plus de languages';
 
-$lang['search_api_key'] = 'API Key';
+$lang['search_api_key'] = 'Clé API';
 $lang['web_per_page'] = 'Résultats web / page';
 $lang['images_per_page'] = 'Résultats images / page';
 $lang['videos_per_page'] = 'Résultats vidéos / page';
@@ -114,7 +114,7 @@ $lang['preferences'] = 'Préférences';
 $lang['theme'] = 'Thème';
 $lang['region'] = 'Région';
 $lang['dark_mode'] = 'Mode sombre';
-$lang['center_content'] = 'Center Content';
+$lang['center_content'] = 'Centrer Contenu';
 $lang['site_language'] = 'Langue du site';
 $lang['new_window'] = 'Ouvrir les résultats dans une nouvelle fenêtre/onglet';
 $lang['highlight'] = 'Mettre en évidence les mots clés dans les résultats de recherche';
