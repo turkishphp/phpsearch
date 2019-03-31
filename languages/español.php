@@ -97,6 +97,7 @@ $lang['search_entities'] = 'Buscar Entidades';
 $lang['search_answers'] = 'Buscar Respuestas';
 $lang['suggestions_per_ip'] = 'Sugerencias / IP';
 $lang['search_specific_sites'] = 'Buscar solo en sitios específicos';
+$lang['search_privacy'] = 'Buscar Privacidad';
 $lang['one_domain_line'] = 'Un dominio por línea';
 
 $lang['ads'] = 'Anuncios';

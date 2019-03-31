@@ -97,6 +97,7 @@ $lang['search_entities'] = 'Caută Entități';
 $lang['search_answers'] = 'Caută Răspunsuri';
 $lang['suggestions_per_ip'] = 'Sugestii / IP';
 $lang['search_specific_sites'] = 'Caută doar în siteuri specifice';
+$lang['search_privacy'] = 'Caută Confidențial';
 $lang['one_domain_line'] = 'Un domeniu pe linie';
 
 $lang['ads'] = 'Reclame';
