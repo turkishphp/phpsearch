@@ -66,28 +66,28 @@ $lang['confirm_new_password'] = 'Yeni parolayı onayla';
 
 $lang['settings_saved'] = 'Ayarlar kaydedildi';
 
-$lang['upload_error_code'] = 'Upload error code: %s';
-$lang['invalid_user_pass'] = 'Invalid username or password';
+$lang['upload_error_code'] = 'Yükleme hata kodu: %s';
+$lang['invalid_user_pass'] = 'Geçersiz kullanıcı adı yada parola';
 $lang['wrong_current_password'] = 'The current password you\'ve entered is invalid';
-$lang['password_too_short'] = 'Password is too short';
-$lang['password_not_matching'] = 'Password is not matching';
-$lang['all_fields_required'] = 'All fields are required';
+$lang['password_too_short'] = 'Parolanız çok kısa';
+$lang['password_not_matching'] = 'Parolanız eşleşmiyot';
+$lang['all_fields_required'] = 'Tüm alanlar gereklidir';
 
-$lang['page_title'] = 'Page Title';
-$lang['page_url'] = 'Page URL';
-$lang['page_public'] = 'Public Page';
-$lang['page_content'] = 'Page Content';
-$lang['page_url_exists'] = 'The Page URL already exists';
-$lang['page_created'] = 'Page %s has been created';
-$lang['page_deleted'] = 'Page %s has been deleted';
+$lang['page_title'] = 'Sayfa Başlığı';
+$lang['page_url'] = 'Sayfa Adresi';
+$lang['page_public'] = 'Genel Sayfa';
+$lang['page_content'] = 'Sayfa içeriği';
+$lang['page_url_exists'] = 'Bu sayfanın url adresi kullanılmaktadır.';
+$lang['page_created'] = ' %s sayfası oluşturuldu';
+$lang['page_deleted'] = '%s sayfası silindi';
 
-$lang['site_info'] = 'Site Info';
-$lang['useful_links'] = 'Useful Links';
+$lang['site_info'] = 'Site bilgisi';
+$lang['useful_links'] = 'Kullanışlı Bağlantılar';
 $lang['get_more_themes'] = 'Get more themes';
 $lang['get_more_languages'] = 'Get more languages';
 
-$lang['search_api_key'] = 'API Key';
-$lang['web_per_page'] = 'Web results / page';
+$lang['search_api_key'] = 'API Anahtarı';
+$lang['web_per_page'] = 'Web sonuçları / sayfa';
 $lang['images_per_page'] = 'Images results / page';
 $lang['videos_per_page'] = 'Videos results / page';
 $lang['news_per_page'] = 'News results / page';
@@ -125,7 +125,7 @@ $lang['copyright'] = '&copy; %s %s';
 $lang['powered_by'] = 'Powered by %s';
 
 // Search
-$lang['filters'] = 'Filters';
+$lang['filters'] = 'Filitreler';
 $lang['period'] = 'Period';
 $lang['past_day'] = 'Past day';
 $lang['past_week'] = 'Past week';
@@ -193,23 +193,23 @@ $lang['see_results_for'] = 'See results for';
 
 $lang['date_format'] = '%2$s %3$s, %1$s';
 
-$lang['views_x'] = '%s views';
+$lang['views_x'] = '%s görünüm';
 $lang['views_k'] = 'K';
 $lang['views_m'] = 'M';
 $lang['views_b'] = 'B';
 $lang['views_t'] = 'T';
-$lang['month_01'] = 'January';
-$lang['month_02'] = 'February';
-$lang['month_03'] = 'March';
-$lang['month_04'] = 'April';
-$lang['month_05'] = 'May';
-$lang['month_06'] = 'June';
-$lang['month_07'] = 'July';
-$lang['month_08'] = 'August';
-$lang['month_09'] = 'September';
-$lang['month_10'] = 'October';
-$lang['month_11'] = 'November';
-$lang['month_12'] = 'December';
+$lang['month_01'] = 'Ocak';
+$lang['month_02'] = 'Şubat';
+$lang['month_03'] = 'Mart';
+$lang['month_04'] = 'Nisan';
+$lang['month_05'] = 'Mayıs';
+$lang['month_06'] = 'Haziran';
+$lang['month_07'] = 'Temmuz';
+$lang['month_08'] = 'Ağustos';
+$lang['month_09'] = 'Eylül';
+$lang['month_10'] = 'Ekim';
+$lang['month_11'] = 'Kasım';
+$lang['month_12'] = 'Aralık';
 
 $lang['decimals_separator'] = '.';
 $lang['thousands_separator'] = ',';
